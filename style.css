@@ -11,7 +11,7 @@ body {
 }
 
 .navbar {
-    background-color: #fd0101;
+    background-color: red;
     padding: 0px;
     display: flex;
     justify-content: space-between;
@@ -19,6 +19,7 @@ body {
 }
 
 .menu-icon {
+    padding-left: 20PX;
     cursor: pointer;
     display: flex;
     flex-direction: column;
@@ -38,11 +39,12 @@ body {
 }
 
 .menu-content a {
+    margin-right: 20PX;
     color: #fff;
     text-decoration: none;
     padding: 10px;
-    font-size: 100px;
-    display: block;
+    font-size: 50px;
+    display: inline-block;
 }
 
 .menu-content a:hover {
