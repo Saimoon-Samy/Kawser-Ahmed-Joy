@@ -27,8 +27,8 @@ body {
 }
 
 .dot {
-    width: 140px;
-    height: 40px;
+    width: 50px;
+    height: 8px;
     background-color: #fff;
     margin: 3px 0;
 }
